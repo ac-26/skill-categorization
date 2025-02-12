@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-This project aims to classify various skills into predefined categories using Natural Language Processing (NLP) techniques. The model is deployed using **FastAPI**, making it accessible through a RESTful API endpoint for real-time skill categorization. It is designed for use in applications like job matching, skill gap analysis, and talent management.
+This project aims to classify various skills into predefined categories using Natural Language Processing (NLP) techniques. The model is deployed using **FastAPI**, making it accessible through a RESTful API endpoint for real-time skill categorization. 
 
 ---
 
