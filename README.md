@@ -57,13 +57,7 @@ The **SVM model** provided the best performance, and this is the model used in p
 ---
 
 ## 💻 **Installation & Usage**  
-
-### **1 Clone the Repository**  
-```bash
-git clone <your-repo-link>
-cd <your-repo-folder>
-
-### **2 Running the code**
+### ** Running the code**
 Option 1: Google Colab:
 Upload the notebook skill_categorization.ipynb to Google Drive and execute all cells by going to Runtime -> Run all in Google Collab
 
