@@ -55,3 +55,22 @@ Several machine learning models were evaluated for this task:
 The **SVM model** provided the best performance, and this is the model used in production. The model was trained using the preprocessed dataset and saved using **Pickle** (`model.pkl`).
 
 ---
+
+## 💻 **Installation & Usage**  
+
+### **1 Clone the Repository**  
+```bash
+git clone <your-repo-link>
+cd <your-repo-folder>
+
+### **2 Running the code**
+Option 1: Google Colab:
+Upload the notebook skill_categorization.ipynb to Google Drive and execute all cells by going to Runtime -> Run all in Google Collab
+
+Option 2: Jupyter Notebook
+Open the file in Jupyter Notebook and run all cells.
+
+In the skill_categorizazion file there is a section that i have highlighted as "Try the code here". You may change the skills according to your wish and evaluate.
+
+
+
