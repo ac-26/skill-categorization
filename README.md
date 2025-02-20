@@ -1,70 +1,39 @@
-# **Skill Categorization NLP with FastAPI**
+# 🚀 AI-Powered Skill Categorization System
 
-## **Overview**
-
-This project aims to classify various skills into predefined categories using Natural Language Processing (NLP) techniques. The model is deployed using **FastAPI**, making it accessible through a RESTful API endpoint for real-time skill categorization. 
+This project automates skill categorization using **Machine Learning and Generative AI**. It first applies **ML models** to categorize known skills, then uses **LLMs** to cluster and categorize unrecognized skills dynamically, and finally generates column names using **Generative AI**.
 
 ---
 
-## **Table of Contents**
+## 📌 Key Features
 
-- [Overview](#overview)
-- [Technologies Used](#technologies-used)
-- [Data](#data)
-- [Model](#model)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Running the Application](#running-the-application)
-- [License](#license)
+✅ **Custom Synthetic Dataset**  
+✅ **Data Cleaning & Feature Engineering**  
+✅ **ML Model for Skill Categorization**  
+✅ **LLM-Based Clustering for Unrecognized Skills**  
+✅ **Generative AI for Dynamic Column Naming**  
 
 ---
 
-## **Technologies Used**
+## 📊 Methodology
 
-- **Python** (v3.8+)
-- **FastAPI** – Framework for building the API.
-- **Uvicorn** – ASGI server for running FastAPI.
-- **Scikit-learn** – For machine learning models.
-- **Pickle** – For saving and loading the trained model.
-- **TF-IDF Vectorizer** – For text feature extraction.
-- **Jupyter Notebook** – For model development and experimentation.
-- **requests** – For testing the API endpoints locally.
+1. **Dataset Creation**: Synthetic dataset for skill categorization.  
+2. **Preprocessing & Feature Engineering**: Cleaning, vectorization, and transformation.  
+3. **Skill Categorization**: ML model predicts known skill categories.  
+4. **Handling Unrecognized Skills**: LLMs cluster & categorize unknown skills.  
+5. **Automatic Column Naming**: Generative AI names skill categories dynamically.  
 
 ---
 
-## **Data**
+## 🛠 Installation & Setup
 
-The dataset used for training the model consists of a list of skills labeled into categories. The key columns in the dataset include:
+### 1️⃣ **Download the ipynb file and upload on Google Collab**
 
-- **Skill**: The skill name (e.g., Python, Data Science, Project Management).
-- **Category**: The skill's corresponding category (e.g., **Technical Skills**, **Data & AI Skills**, etc.).
-
-The dataset was preprocessed by removing unwanted characters, tokenizing the text, and converting the skills into numerical vectors using the **TF-IDF Vectorizer**.
+### 2️⃣ **Run all cells from File -> Runtime -> Run All**
 
 ---
 
-## **Model**
-
-Several machine learning models were evaluated for this task:
-
-1. **Logistic Regression**
-2. **Random Forest**
-3. **Support Vector Machine (SVM)**
-
-The **SVM model** provided the best performance, and this is the model used in production. The model was trained using the preprocessed dataset and saved using **Pickle** (`model.pkl`).
-
----
-
-## 💻 **Installation & Usage**  
-### ** Running the code**
-Option 1: Google Colab:
-Upload the notebook skill_categorization.ipynb to Google Drive and execute all cells by going to Runtime -> Run all in Google Collab
-
-Option 2: Jupyter Notebook
-Open the file in Jupyter Notebook and run all cells.
-
-In the skill_categorizazion file there is a section that i have highlighted as "Try the code here". You may change the skills according to your wish and evaluate.
-
+## 📈 Results and Performance
+### 1️⃣ ML Model Accuracy: 97% using SVM
+### 2️⃣ LLM-Based Categorization: Successfully grouped unknown skills into meaningful clusters.
 
 
